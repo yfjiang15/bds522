@@ -1,0 +1,24 @@
+---
+title: "Conclusion"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(ggplot2)
+library(latexpdf)
+data <- read.csv("Data_2015.csv")
+attach(data)
+```
+
+## Conclusion
+From the data and results we get, we can conclude that: all the four variables involved here (average wage, Property Value, Health insurance coverage, and food danger) are not good predictors of immigrants' preference when choosing the state for residence. Among these, however, immigrants care most about the insurance level, which indicates the power of living support from the government. The wage and property values are not salient probability because the immigrants have relatives or self-communities in a certain area that can provide pecuniary support. Besides, the food problem may not be visible enough for immigrants to consider. That is, all the states share a similar level of food insecurity (around 15) with a small variance (around 0.2).
+
+``` {r echo=FALSE, warning=FALSE}
+var(FoodDanger)
+```
+
+As shown, the variance is so close to 0 that it could not make food issue relevant to immigration population.
+
+Hence, high living cost might not be an obstacle for immigrants to come, while poor insurance support might be. 

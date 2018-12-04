@@ -1,0 +1,16 @@
+---
+title: "Home"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Welcome to my website!
+
+This is an individual project of BDS 522 course, rooted in the Mater of Behavioral and Decision Sciences program from University of Pennsylvania.
+
+This project is about the influential factors on the number of immigrants from different states of the US.
+
+Please check the column at the top of this page and click the corresponding tag for details!

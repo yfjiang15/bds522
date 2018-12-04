@@ -1,0 +1,14 @@
+---
+title: "Introduction"
+output: html_document
+---
+
+## Motivations
+
+My project will be talking about the immigration preferences of different states in the United States. I was initially motivated by some of my friends from China, my home country, who were considering to permanently stay in the US. As well known, the United States is an immigration country of freedom, and it welcomes all the dream chasers and whoever wants to pursue any success. I am interested in studying which kinds of factors will influence immigrants' preferences when choosing a certain state to live. Are there any particular factors that really affect their choices? Which aspects may closely correlate with the openness of the state? 
+
+## Literature Review
+
+The United States has long been cognized as the "paradise" of immigrants, and recent people rely on more factors other than the economic condition of an area when they are choosing a residential place. According to an article by Business Insider, they have concerns about opportunities for earnings, health risks, homeownership, and openness for non-English speakers. Also, the Better Life Index, accounted in May 2011 by the OECD  shows the index of housing, health, income, and jobs, as well as communities to better measure how people lead a happier life. However, critiques have also been raised by scholars on how much accuracy can OECD index actually illustrate, which further leads to my research question of how well can these parameter set work with immigrants? In a background setting within the United States, what indicators are potentially adjusting people's decisions most? 
+
+

@@ -1,0 +1,53 @@
+---
+title: "Data and Methods"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(ggplot2)
+library(latexpdf)
+data <- read.csv("Data_2015.csv")
+attach(data)
+```
+
+
+## Data
+
+I use the data recorded from DATAUSA (https://datausa.io/), an open-source data website for public. I found the average wage, median property value (living cost), healthcare insured rate/number (healthcare), and food danger (living quality) to be independent variables for Immigration number, the dependent variables.
+
+![A screenshot of the website](~/Desktop/Project/pic.png)
+
+Here is the summary of the dataset I am using in this analysis.
+
+```{r}
+summary(data)
+
+```
+
+To make it clear, my dataset includes 52 observables (50 states plus District of Columbia and Puerto Rico) in 12 attributes. The relevant variables are: 
+
+- average wage (AveWage)
+
+- property value(PropertyValue)
+
+- health insurance coverage(Insured)
+
+- food Risk (FoodDanger)
+
+The dependent variable is coded as Immigration, which refers to the population of immigrants.
+
+*Note: all the variables are numeric expect for FoodDanger. The original data is in a percentage form, which means the percentage of unsafe food. Due to the small variance of original data, I convert this variable into a factor variable. Those states with a percentage over 15 (the mean), they are labeled as "high", otherwise, "low".
+
+## Methods and Hypothesis
+
+For methods chosen to analyze the dataset, basically, regressions are used in my project, including both simple linear regression and multiple regressions.
+
+My general null hypothesis is $\mu_0$: average wage, property value, health insurance coverage and food risk all have influences on preferences of immigrants. In particular:
+
+$\mu_a$: Health insurance is relatively the most influential factor.
+
+$\mu_b$: Income level is more important for immigrants comparing with property value.
+
+$\mu_c$: People are more likely to stay in a state with lower food risks.

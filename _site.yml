@@ -1,0 +1,22 @@
+name: "BDS 522 Website"
+output_dir: "."
+navbar:
+  title: "BDS 522 Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Introduction"
+      href: Introduction.html
+    - text: "Data and Methods"
+      href: data_and_methods.html
+    - text: "Results and Analysis"
+      href: results.html
+    - text: "Conclusion"
+      href: conclusion.html
+    - text: "About"
+      href: About.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    css: styles.cs

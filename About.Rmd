@@ -1,0 +1,29 @@
+---
+title: "About"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Who am I
+Hey there!
+
+My name is Yvan Jiang, a graduate student from University of Pennsylvania. 
+
+This is my first website (with R!) as well as my very first experience with Github! I have long been hearing about this incredible website, which is super powerful and useful, from my programmer friends. They even give Github a funny nickname: the largest online gay social platform because there are far more male programmers than female! (most of which are quite worried as they have no girlfriends and feel quite difficult to find one lol)
+
+However, even if I am a girl, I find it interesting and exciting to write codes and provide compelling analysis towards a bunch of data: there are numerous things unknown by people behind the numbers! I still need to learn more about statistics and ways of doing analysis, other than R or SPSS, and make a deeper understanding of codes, programming and a variety of skill sets that make the numbers fancy and accessible to the public! 
+
+
+## Contact
+If you have any quesions, concerns or just a purpose of making friends, please feel free to reach out to me:
+
+Email: yfjiang@sas.upenn.edu
+
+Cheers!
+
+## Appreciation
+My sincere appreciation to Alex, my R mentoring teacher, and TA Yiyi! 
